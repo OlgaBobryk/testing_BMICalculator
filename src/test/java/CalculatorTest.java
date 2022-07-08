@@ -27,8 +27,6 @@ public class CalculatorTest {
         boolean expectedText = resultText.equals("Your category is Starvation");
         driver.quit();
         Assert.assertTrue(expectedText, "Result is not displayed");
-
-        //Assert.assertNotNull(resultText, "Result is not displayed");
     }
 
     @Test
@@ -49,8 +47,6 @@ public class CalculatorTest {
         boolean expectedText = resultText.equals("Your category is Underweight");
         driver.quit();
         Assert.assertTrue(expectedText, "Result is not displayed");
-
-        //Assert.assertNotNull(resultText, "Result is not displayed");
 
     }
 
@@ -73,7 +69,6 @@ public class CalculatorTest {
         driver.quit();
         Assert.assertTrue(expectedText, "Result is not displayed");
 
-        //Assert.assertNotNull(resultText, "Result is not displayed");
     }
 
     @Test
@@ -95,8 +90,6 @@ public class CalculatorTest {
         driver.quit();
         Assert.assertTrue(expectedText, "Result is not Overweight");
 
-        //Assert.assertNotNull(resultText, "Result is not displayed");
-
     }
 
     @Test
@@ -117,8 +110,6 @@ public class CalculatorTest {
         boolean expectedText = resultText.equals("Your category is Obese");
         driver.quit();
         Assert.assertTrue(expectedText, "Result is not displayed");
-
-        //Assert.assertNotNull(resultText, "Result is not displayed");
 
     }
 
@@ -145,6 +136,5 @@ public class CalculatorTest {
         } finally {
             driver.quit();
         }
-
     }
 }
